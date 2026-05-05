@@ -35,9 +35,9 @@ always_comb begin
         4'b0100: seg_o = 7'b0011001; // Display '4'
         4'b0101: seg_o = 7'b0010010; // Display '5'
         4'b0110: seg_o = 7'b0000010; // Display '6'
-        4'bO111: seg_o = 7'b1111000; // Display '7'
-        4'b1OOO: seg_o = 7'b0000000; // Display '8'
-        4'b1OOl: seg_o = 7'b0010000; // Display '9'
+        4'b0111: seg_o = 7'b1111000; // Display '7'
+        4'b1000: seg_o = 7'b0000000; // Display '8'
+        4'b1001: seg_o = 7'b0010000; // Display '9'
     
     default: seg_o = 7'b1111111; // All segments off for invalid input
     endcase
